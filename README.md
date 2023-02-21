@@ -110,3 +110,20 @@ iTranswarp is deployed by Docker. Images can be pulled from [DockerHub](https://
                         │         └───────────┘     └────────────┘│
                         └─────────────────────────────────────────┘
 ```
+
+# 项目结构分析
+## 项目结构
+| 文件名称            | 说明                     |
+|-----------------|------------------------|
+| dev             | 开发环境                   |
+| dev-mac         | mac开发环境                |
+| env             | 环境属性值                  |
+| quickstart      | 快速启动配置                 |
+| script          | 脚本文件-目前只有备份数据库脚本       |
+| src             | 源码                     |
+| build.sh        | 使用docker构建镜像，并校验java版本 |
+| docker-run.sh   | 使用docker运行             |
+| Dockerfile      | docer构建规则              |
+| LICENSE         | 许可，GNU通用公共许可证          |
+| mvnw            | maven构建命令              |
+| pom.xml         | maven构建配置              |
